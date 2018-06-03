@@ -37,10 +37,10 @@ grad = zeros(size(theta));
 %
 
 
-h = sigmoid(X*theta)
+h = sigmoid(X*theta);
 
-theta1 = theta
-theta1(1) = 0
+theta1 = theta;
+theta1(1) = 0;
 
 p = lambda*(theta1'*theta1)/(2*m);
 
